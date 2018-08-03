@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  h1(class="ui center aligned icon header") App Dynamics Metrics
+  div(class="ui three item stackable tabs menu")
+    a(class="item",data-tab="new",href="/appdmetrix")
+      i(class="linux icon")
+      | Max Request per Second
+    a(class="item",data-tab="prev",href="/appdmetrix")
+      i(class="windows icon")
+      | Max Request per Second
+    a(class="item",data-tab="last",href="/appdmetrix")
+      span(class="fl-redhat",style="margin-right:0.357143em")
+      | Max Request per Second
